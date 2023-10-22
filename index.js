@@ -11,9 +11,10 @@ image2.setAttribute("src",imageSource2);
 var refreshButton = document.querySelector(".btn");
 refreshButton.addEventListener("click",function(){
     var heading = document.querySelector("h1").innerHTML = "processing..."
+     this.classList.add("invisible");
     setTimeout(() => {
         window.location.reload();
-        this.classList.add("invisible");
+       
     }, 1000);
 })
 
