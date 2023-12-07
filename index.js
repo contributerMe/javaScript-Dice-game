@@ -18,7 +18,7 @@ refreshButton.addEventListener("click",function(){
     }, 1000);
 })
 
-if(randomNumber1>randomNumber1){
+if(randomNumber1>randomNumber2){
     document.querySelector("h1").innerHTML = "Player 1 wins 🚩";
 }else if(randomNumber2 > randomNumber1){
     document.querySelector("h1").innerHTML = "🚩 Won by player 2";
